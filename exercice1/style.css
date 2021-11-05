@@ -44,4 +44,32 @@
     position: absolute;
     left: 500px;
     top: 25px;
+
+    animation-name: bleu;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes bleu {
+    5% {
+        width: 265px;
+        height:265px;
+    }
+    25% {
+        background : orangered;
+        width: 150px;
+        height: 150px;
+    }
+    75% {
+        width: 200px;
+        height: 200px;
+        left: 50px;
+    }
+    100% {
+        width:70px;
+        height : 70px;
+        background : purple;
+        top:50px;
+        left:65px
+    }
 }

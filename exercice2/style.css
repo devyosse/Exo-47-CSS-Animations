@@ -2,5 +2,19 @@
     width: 100px;
     height: 100px;
     background: red;
+    animation-name: bgChange;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-fill-mode: none;
 }
 
+@keyframes bgChange {
+    from{
+        background-color: red;
+        font-size: 2rem;
+    }
+    to{
+        background-color: green;
+        font-size: 4rem;
+    }
+}
